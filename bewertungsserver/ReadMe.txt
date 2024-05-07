@@ -1,7 +1,7 @@
 Das ist das DHBW Projekt von   ___ Dieser Server wurde gemacht von___
-  - Erich Kraus               |                 (0)                  |
-  - Tarek Al Hashraf          |                 (0)                  |
-  - Mike König                |                 (1)                  |
+  - Erich Kraus               |                 (x)                  |
+  - Tarek Al Hashraf          |                 (x)                  |
+  - Mike König                |                 (x)                  |
                               |______________________________________|
 
                               
