@@ -1,0 +1,41 @@
+//Neues Rating erstellen
+
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+    "productID" : "662650c5f14c38c174e9ceab",
+    "rating": 5,
+    "description": "Tolles Produkt"
+}
+
+###
+
+//Ratings auslesen
+GET http://localhost:3001/
+
+
+###
+
+//ein bestimmtes Produkt auslesen
+GET http://localhost:3001/66266140d1cba5b719581cdf
+
+
+###ein bestimmtes Produkt löschen
+DELETE http://localhost:3001/66266140d1cba5b719581cdf
+
+
+###ein bestimmtes Produkt updaten
+PUT http://localhost:3001/66266175d1cba5b719581ce5
+Content-Type: application/json
+
+{
+    "productID" : "662650c5f14c38c174e9ceab",
+    "description": "Weiterhin tolles Produkt",
+    "rating": 2
+}
+
+
+###alle Ratings zu einer bestimmten ProduktID finden
+GET http://localhost:3001/product/662650c5f14c38c174e9ceab
+
